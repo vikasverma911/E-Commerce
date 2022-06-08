@@ -10,6 +10,9 @@ import LoginScreen from './containers/LoginScreen'
 import RegisterScreen from './containers/RegisterScreen'
 import ProfileScreen from './containers/ProfileScreen'
 import ShippingScreen from './containers/ShippingScreen'
+import PaymentScreen from './containers/PaymentScreen'
+import PlaceOrderScreen from './containers/PlaceOrderScreen'
+import OrderScreen from './containers/OrderScreen'
 
 
 const App = () => {
@@ -24,7 +27,10 @@ const App = () => {
             <Route path="/register" element={<RegisterScreen />} />
             <Route path="/profile" element={<ProfileScreen />} />
             <Route path='/product/:id' element={<ProductScreen />} exact />
-            <Route path="/shipping" element={<ShippingScreen />} />
+            <Route path="/login/shipping" element={<ShippingScreen />} />
+            <Route path='/payment' element={<PaymentScreen />} exact />
+            <Route path='/placeorder' element={<PlaceOrderScreen />} exact />
+            <Route path='/order/:id' element={<OrderScreen />} exact />
             <Route path="/cart" element={<CartScreen />} />
             <Route path='/cart/:id' element={<CartScreen />} exact />
           </Routes>
