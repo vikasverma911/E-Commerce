@@ -1,4 +1,4 @@
-# E-Commerce
+# Optics E-Commerce
 This is a full stack web application where users can buy glasses and lenses of all size and shape. Users will not have to worry to go to the optical shop, but now they can buy spectacles online and choose from hundreds of brands and designs using are website. The product ranges to eyeglasses, contact lenses, sunglasses for both men and women.
 
 Our web application consists of customer module and second includes admin module. Customer module deals with user management i.e manages their authentication, shopping cart, address details, order detail, payments etc. Admin module manages  website from backend, which includes add, delete and update any information regarding and users and products. Maintaining order payment and delivery status of each user.
